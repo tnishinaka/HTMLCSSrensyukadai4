@@ -22,8 +22,8 @@ li {
 .sing {
     background-color: rgb(70, 165, 202);
     display: block;
-    height: 2.5rem;
-    width: 9rem;
+    height: 2rem;
+    width: 5.5rem;
     text-align: center;
     color: white;
 }
@@ -36,6 +36,7 @@ li {
     display: flex;
     justify-content: flex-end;
     padding-top: 2rem;
+    font-size: 1.3rem;
 }
 
 .ue-nav li a {
@@ -82,20 +83,22 @@ li {
 .btn02 {
     display: flex;
     justify-content: space-between;
-    width: 38rem;
+    width: 33rem;
+    height: 6rem;
     text-align: center;
     margin: 0 auto;
-    padding-top: 5rem;
-    font-weight: 100;
+    padding-top: 2rem;
 }
 
 .btn02 input {
     background-color: rgb(228, 222, 222);
     color: #696969;
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 
 .b1 {
-    width: 15rem;
+    width: 13rem;
     border-radius: 0.3rem;
 }
 
@@ -105,7 +108,7 @@ li {
 }
 
 .b2 {
-    width: 20rem;
+    width: 17rem;
     border-radius: 0.3rem
 }
 
@@ -115,7 +118,7 @@ li {
 }
 
 .f-nav {
-    height: 4rem;
+    height: 4.5rem;
     width: 100%;
     background-color: #f2f2f2;
     border: solid 1px #e4e4e4;
@@ -126,13 +129,14 @@ li {
 .left-nav {
     display: flex;
     float: left;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
 
 .left-nav li a,
 .right-nav li a {
     color: #5f6368;
     margin-left: 2rem;
+    font-size: 1.3rem;
 }
 
 .left-nav li a:hover,
@@ -148,5 +152,5 @@ li {
 .right-nav {
     display: flex;
     float: right;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
