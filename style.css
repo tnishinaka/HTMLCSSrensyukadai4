@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+html {
+    font-family: arial,sans-serif;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.right-nav {
+    display:flex;
+    justify-content: flex-end;
+    font-size:13px;
+    color: rgba(0,0,0,0.9);
+    padding-top: 20px;
+}
+
+.right-nav li {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.right-nav li:last-child {
+    padding-top:10px;
+    position:relative;
+}
+
+.right-nav li a {
+    font-size:13px;
+    color: rgba(0,0,0,0.9);
+}
+
+.right-nav li span {
+    display:inline-block;
+    height:40px;
+    width: 40px;
+    padding-top:12px;
+    text-align:center;
+    background-color: rgb(236, 111, 53);
+    color:#fff;
+    border-radius: 50%;
+}
+
+.container {
+    text-align:center;
+    padding-top:160px;
+}
+
+.main_logo {
+    padding-bottom:25px;
+}
+
+input[type="text"] {
+    border:1px solid rgba(0, 0, 0, 0.3);
+    padding:10px 10px 8px 33px;
+    width:580px;
+    height:44px;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 8px rgb(121, 121, 121,0.5);
+}
+
+.seartch_text {
+    position :relative;
+    margin-bottom:45px;
+}
+
+.fa-search{
+    position:absolute;
+    top:15px;
+    padding-left:10px;
+    color:#757575;
+}
+
+.btn_group {
+    font-size:14px;
+    width:300px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.1);
+    color:rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius:4px;
+    font-size:14px;
+}
+
+input[type="submit"]:hover {
+    color:rgba(0, 0, 0, 0.9);
+    background-color: rgba(197, 197, 197, 0.3);
+    border:1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+footer {
+    height:50px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.1);
+    position:absolute;
+    bottom:0;
+    font-size:14px;
+}
+
+.left_con {
+    display:flex;
+    float:left;
+    line-height:50px;
+}
+
+.left_con li {
+    padding-left: 10px;
+}
+
+.left_con li a {
+    color:rgba(0, 0, 0, 0.6);
+}
+.right_con {
+    display:flex;
+    float:right;
+    line-height:50px;
+}
+
+.right_con li {
+    padding-right:10px;
+}
+
+.right_con li a {
+    color:rgba(0, 0, 0, 0.6);
+}
