@@ -110,14 +110,13 @@ input[type="submit"]:hover {
     box-sizing: border-box;
 }
 
-footer {
+
+
+.footer-container {
     height:50px;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.1);    
     font-size:14px;
-}
-
-.footer-container {
     display: flex;
     justify-content:space-between;
 }
