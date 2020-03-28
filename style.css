@@ -16,21 +16,24 @@ ul {
     list-style: none;
 }
 
+main {
+    min-height: 87vh;
+}
+
 .right-nav {
     display:flex;
     justify-content: flex-end;
     font-size:13px;
     color: rgba(0,0,0,0.9);
     padding-top: 20px;
+    align-items:center;
 }
 
 .right-nav li {
     padding-right: 20px;
-    padding-top: 20px;
 }
 
 .right-nav li:last-child {
-    padding-top:10px;
     position:relative;
 }
 
@@ -45,7 +48,7 @@ ul {
     width: 40px;
     padding-top:12px;
     text-align:center;
-    background-color: rgb(236, 111, 53);
+    background-color: #ec6f35;
     color:#fff;
     border-radius: 50%;
 }
@@ -62,7 +65,7 @@ ul {
 input[type="text"] {
     border:1px solid rgba(0, 0, 0, 0.3);
     padding:10px 10px 8px 33px;
-    width:580px;
+    width:39vw;
     height:44px;
     border-radius: 20px;
     outline: none;
@@ -80,7 +83,7 @@ input[type="text"]:hover {
 .fa-search{
     position:absolute;
     top:15px;
-    padding-left:10px;
+    left:31.3vw;
     color:#757575;
 }
 
@@ -110,15 +113,17 @@ input[type="submit"]:hover {
 footer {
     height:50px;
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.1);
-    position:absolute;
-    bottom:0;
+    background-color:rgba(0, 0, 0, 0.1);    
     font-size:14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content:space-between;
 }
 
 .left_con {
     display:flex;
-    float:left;
     line-height:50px;
 }
 
@@ -129,9 +134,9 @@ footer {
 .left_con li a {
     color:rgba(0, 0, 0, 0.6);
 }
+
 .right_con {
     display:flex;
-    float:right;
     line-height:50px;
 }
 
