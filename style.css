@@ -17,7 +17,11 @@ ul {
 }
 
 main {
-    min-height: 87vh;
+    min-height: calc(100vh - 110px);
+}
+
+header {
+    padding-top: 20px;
 }
 
 .right-nav {
@@ -25,7 +29,6 @@ main {
     justify-content: flex-end;
     font-size:13px;
     color: rgba(0,0,0,0.9);
-    padding-top: 20px;
     align-items:center;
 }
 
@@ -65,7 +68,7 @@ main {
 input[type="text"] {
     border:1px solid rgba(0, 0, 0, 0.3);
     padding:10px 10px 8px 33px;
-    width:39vw;
+    width:calc(100vw / 2);
     height:44px;
     border-radius: 20px;
     outline: none;
@@ -83,7 +86,7 @@ input[type="text"]:hover {
 .fa-search{
     position:absolute;
     top:15px;
-    left:31.3vw;
+    left:25.8vw;
     color:#757575;
 }
 
@@ -110,11 +113,8 @@ input[type="submit"]:hover {
     box-sizing: border-box;
 }
 
-
-
 .footer-container {
     height:50px;
-    width: 100%;
     background-color:rgba(0, 0, 0, 0.1);    
     font-size:14px;
     display: flex;
